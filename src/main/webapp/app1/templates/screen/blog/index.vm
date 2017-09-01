@@ -1,0 +1,13 @@
+<div class="section">
+    Hello， ${name}!!
+    This is my Blog!!
+    <br>
+    <br>
+    <br>
+    <br>
+    <table>
+    #foreach($s in $strings)
+    	<tr><td>${velocityCount}  --->  $s </td></tr>
+	#end
+	</table>    
+</div>
